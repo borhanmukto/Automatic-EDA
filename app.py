@@ -79,7 +79,7 @@ else:
     st.subheader("Pearson Correlation Matrix for Numeric Data")
     corr_matrix = new_df[num_cols].corr()
     st.write(corr_matrix)
-    plt.figure(figsize=(12, 12))
+    plt.figure(figsize=(8, 8))
     sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
     st.pyplot(plt)
 
