@@ -80,7 +80,7 @@ else:
     corr_matrix = new_df[num_cols].corr()
     st.write(corr_matrix)
     plt.figure(figsize=(12, 12))
-    sns.heatmap(corr_matrix, annot=True, cmap='YlGnBu', linewidths=0.5)
+    sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
     st.pyplot(plt)
 
     # Checking the Association Between Categorical Columns using Cramer'V Test Based on Chi-Squred Principle
