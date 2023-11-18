@@ -10,7 +10,7 @@ import statistics
 import scipy.stats as ss
 
 # add a title to the webapp
-st.title("Automatic Basic Explanatory Data Analysis")
+st.title("Automatic Basic Exploratory Data Analysis (EDA)")
 # add a sidebar for the file uploader
 st.sidebar.subheader("Visualization Settings")
 # select the placeholder for file uploader
